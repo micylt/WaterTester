@@ -1,11 +1,3 @@
-"""
-This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
-The Intent Schema, Custom Slots, and Sample Utterances for this skill, as well
-as testing instructions are located at http://amzn.to/1LzFrj6
-
-For additional samples, visit the Alexa Skills Kit Getting Started guide at
-http://amzn.to/1LGWsLG
-"""
 
 from __future__ import print_function
 
@@ -47,16 +39,12 @@ def get_welcome_response():
     """ If we wanted to initialize the session to have some attributes we could
     add those here
     """
-
     session_attributes = {}
     card_title = "Welcome"
-    speech_output = "Welcome to the Alexa Skills Kit sample. " \
-                    "Please tell me your favorite color by saying, " \
-                    "my favorite color is red"
+    speech_output = "Welcome to Water Tester. Please ask about water quality."
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "Please tell me your favorite color by saying, " \
-                    "my favorite color is red."
+    reprompt_text = "Please ask about the water quality in your area."
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
@@ -76,6 +64,7 @@ def create_favorite_color_attributes(favorite_color):
     return {"favoriteColor": favorite_color}
 
 
+# TODO: I don't think we need anything like this unless we set location?
 def set_color_in_session(intent, session):
     """ Sets the color in the session and prepares the speech to reply to the
     user.
@@ -174,7 +163,7 @@ def on_session_ended(session_ended_request, session):
     """
     print("on_session_ended requestId=" + session_ended_request['requestId'] +
           ", sessionId=" + session['sessionId'])
-    # add cleanup logic here
+    # add cleanup logic hereon_launch
 
 
 # --------------- Main handler ------------------
