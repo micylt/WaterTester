@@ -1,0 +1,73 @@
+Flouride|4.0
+Benzene|0.0
+Carbon Tetrachlorite|0.0
+p-Dichlorobenzene|0.075
+1,2-Dichloroethane|0.0
+1,1-Dichloroethylene|0.007
+Trichloroethylene|0.0
+1,1,1-Trichloroethane|0.2
+Vinyl Chloride|0.0
+Giardia Lamblia|0
+Legionella|0
+Turbidity|0
+Antimony|0.006
+Asbestos|7.0
+Barium|2.0
+Beryllium|0.004
+Cadmium|0.005
+Chromium|0.1
+Cyanide|0.2
+Mercury|0.002
+Nitrate|10.0
+Nitrite|1.0
+Selenium|0.05
+Thallium|0.0005
+Acrylamide|0.0
+Chlordane|0.0
+Carbofuran|0.04
+Chlorobenzene|0.1
+Dalapon|0.2
+Dibromo chloropropene|0.0
+o-Dichlorobenzene|0.6
+cis-1,2-Dichloroethylene|0.07
+trans-1,2-Dichloroethylene|0.1
+Dichloromethane|0.0
+1,2-Dichloropropane|0.0
+Dinoseb|0.007
+Dioxin|0.0
+Diquat|0.02
+2,4-D|0.07
+Endothall|0.1
+Endrin|0.002
+Epichlorohydrin|0.0
+Ethylbenzene|0.7
+Ethylene dibromide|0.0
+Glyphosate|0.7
+Heptachlor|0.0
+Heptachlor epoxide|0.0
+Hexachlorobenzene|0.0
+Hexachlorocyclopentadiene|0.05
+Lindane|0.0002
+Methoxychlor|0.04
+Oxamyl|0.2
+Vydate|0.2
+Pentachlorophenol|0.0
+Phthalate|0.0
+Picloram|0.5
+Simazine|0.004
+Styrene|0.1
+Tetrachloroethylene|0.0
+Toluene|1.0
+Toxaphene|0.0
+2,4,5-TP|0.05
+1,2,4-Trichlorobenzene|0.07
+1,1,2-Trichloroethane|0.003
+Xylene|10
+Lead|0.015
+Copper|1.3
+Trihalomethanes|0.0
+Arsenic|0.01
+Radium-224|0.0
+Redium-228|0.0
+Alpha particle|1.0
+Beta particle|1.0
